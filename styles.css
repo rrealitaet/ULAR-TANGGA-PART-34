@@ -729,3 +729,10 @@ input[type="text"] {
 #dice-player4.remove {
   display: none;
 }
+
+@media (max-width: 600px) {
+  body {
+    zoom: 75%;
+    overflow-x: hidden;
+  }
+}
