@@ -213,7 +213,7 @@ export class Game {
     if (this.level === "E") {
       if (newPosition === 100 || newPosition > 100) {
         player.position = 100;
-        alert(`${player.name} won the game!!`);
+        alert(`${player.name} menang njir!!`);
         return true;
       } else {
         player.position = newPosition;
@@ -222,7 +222,7 @@ export class Game {
     } else if (this.level === "M") {
       if (newPosition === 100) {
         player.position = 100;
-        alert(`${player.name} won the game!!`);
+        alert(`${player.name} menang njir!!`);
         return true;
       } else if (newPosition < 100) {
         player.position = newPosition;
@@ -231,7 +231,7 @@ export class Game {
     } else {
       if (newPosition === 100) {
         player.position = 100;
-        alert(`${player.name} won the game!!`);
+        alert(`${player.name} menang njir!!`);
         return true;
       } else if (newPosition > 100) {
         const owerflow = newPosition - 100;
